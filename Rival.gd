@@ -7,9 +7,10 @@ var velocity = Vector3.ZERO
 func _physics_process(_delta):
 	var direction = Vector3.ZERO
 	
-	if Input.is_action_pressed("move_down"):
+	# todo: decision making for when to move and when not to move
+	if true:
 		direction.x -= 1.0
-	if Input.is_action_pressed("move_up"):
+	if false:
 		direction.x += 1.0
 	
 	if direction != Vector3.ZERO:
